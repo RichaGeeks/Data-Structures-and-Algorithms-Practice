@@ -31,7 +31,8 @@ public class Stringbuilder{
         //When you only need to check value use .equals method
         System.out.println(x.equals(y)); //True it does not care if they are pointing to same object or not
         System.out.println(x.charAt(0));
-
+        //Java
+        System.out.println("56");
 
     }
 }
