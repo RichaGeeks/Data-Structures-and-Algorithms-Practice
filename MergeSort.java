@@ -1,4 +1,6 @@
 import java.util.Arrays;
+
+//REQUIRES RECURSION
 public class MergeSort {
     public static void main(String[] args) {
 
@@ -16,7 +18,7 @@ public class MergeSort {
         mergeSortInPlace(array, 0, array.length);
         System.out.println("The sorted array is : " + Arrays.toString(array));
         System.out.println("The original array is modified : " + Arrays.toString(array));
-        System.out.println("EXCELENT WORK !");
+        System.out.println("EXCELLENT WORK !");
     }
     static int[] mergeSort(int[] arr){
         if(arr.length==1){
